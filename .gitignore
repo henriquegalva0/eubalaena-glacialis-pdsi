@@ -1,0 +1,4 @@
+# ignorando os dados e os papers de referência
+
+data/
+papers/
