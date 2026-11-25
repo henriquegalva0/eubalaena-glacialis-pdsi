@@ -1,0 +1,12 @@
+{
+  "a_b_train_val_pcm_overlap": 0,
+  "c_train_pcm_overlap": 0,
+  "c_val_pcm_overlap": 0,
+  "unlabelled_wavs": [
+    "data/clips/dataset_A/val/audio/A_149.wav"
+  ],
+  "c_clips": 3000,
+  "c_unique_pcm": 2852,
+  "c_repeated_rows": 148,
+  "c_conflicting_duplicate_labels": 0
+}

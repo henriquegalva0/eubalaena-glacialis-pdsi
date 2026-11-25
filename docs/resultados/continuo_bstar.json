@@ -1,0 +1,17 @@
+{
+  "seed": 42,
+  "threshold": 0.40226277709007263,
+  "window_s": 3.0,
+  "step_s": 0.5,
+  "match_tolerance_s": 1.0,
+  "recordings": 50,
+  "hours": 25.000760396321613,
+  "annotations": 1157,
+  "windows": 179750,
+  "tp": 1058,
+  "fp": 5982,
+  "fn": 99,
+  "recall": 0.9144338807260155,
+  "precision": 0.15028409090909092,
+  "false_alarms_per_hour": 239.27272231608353
+}

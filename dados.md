@@ -30,7 +30,7 @@ narw-data/
 **data/clips**
 - Contém trechos de áudio de **3 segundos**, usados para **treinar** a rede neural e **validar** o desempenho dela na classificação.
 - Os dados são divididos em três conjuntos (A, B e C). Eles diferem no período, no local e na forma como o hidrofone (microfone subaquático) foi instalado. O artigo científico explica melhor.
-- Cada conjunto tem as pastas `train` (treino) e `val` (validação).
+- A e B têm as pastas `train` (treino) e `val` (validação). Os clipes de C estão em `train` no pacote original e formam o teste de generalização neste projeto.
 - Os áudios são `.wav`, com taxa de amostragem de 1.000 amostras por segundo.
 - Há também as **anotações feitas por especialistas**, em `.csv`, dizendo se há ou não um "upcall" da baleia em cada trecho. Elas trazem a **razão sinal-ruído (SNR)**, em decibéis (dB). As colunas são:
   - `clip_name`: nome do arquivo de áudio
@@ -38,7 +38,7 @@ narw-data/
   - `snr`: razão sinal-ruído, em dB
 
 **data/continuous**
-- Contém arquivos de áudio de **30 segundos**, usados para **testar** a capacidade da rede de detectar upcalls em gravações contínuas.
+- Contém **50 WAVs de aproximadamente 30 minutos a 32.768 Hz**, usados para testar a detecção em gravações contínuas. O teste reamostra o áudio para 1.000 Hz.
 - Também tem anotações de especialistas em `.csv`, com os momentos em que ocorrem upcalls. As colunas são:
   - `filename`: nome do arquivo de áudio
   - `timestamp`: instante central do upcall, em segundos a partir do início do arquivo

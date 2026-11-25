@@ -2,3 +2,8 @@
 
 data/
 papers/
+narw-data/
+narw-data.zip
+artifacts/
+.venv/
+__pycache__/

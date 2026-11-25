@@ -1,0 +1,27 @@
+{
+  "le02": {
+    "amplitude_150_hz": 1.0013772249221802,
+    "alias_300_relative_db": -71.7520751953125
+  },
+  "le03": {
+    "recording": "B_cont_13.wav",
+    "single_window_time_s": 1283.5,
+    "original_score": 0.4414016,
+    "smoothed_score": 0.337530328,
+    "threshold": 0.40226277709007263,
+    "clip": "A_2032.wav",
+    "correlation_peak": 0.3968314826488495,
+    "matched_start_hz": 62.5,
+    "matched_start_s": 1.024
+  },
+  "le06": {
+    "bin_hz": 3.90625,
+    "hop_ms": 32.0,
+    "relative_dft_error": 6.727875376066276e-08,
+    "chirp_ridge_hz_per_s": 120.9674751199886
+  },
+  "le11": {
+    "chirp_tangent_hz_per_s": 117.59053802490234,
+    "stationary_tangent_hz_per_s": -0.5670815110206604
+  }
+}
