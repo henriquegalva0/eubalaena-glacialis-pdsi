@@ -1,0 +1,20 @@
+[
+  {
+    "seed": 7,
+    "checkpoint": "seed_7.joblib",
+    "threshold": 0.2180967628955841,
+    "val_auc": 0.9204226369905437
+  },
+  {
+    "seed": 23,
+    "checkpoint": "seed_23.joblib",
+    "threshold": 0.31623202562332153,
+    "val_auc": 0.9294349011025311
+  },
+  {
+    "seed": 42,
+    "checkpoint": "seed_42.joblib",
+    "threshold": 0.36906471848487854,
+    "val_auc": 0.9261572449106
+  }
+]

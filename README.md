@@ -122,6 +122,7 @@ Os resultados principais em **C e B*** correspondem à CNN congelada. As ablaç�
 
 - `artifacts/prepared/` guarda arrays NumPy e os metadados por partição. Use `--output` no preparo e `--prepared` nos demais comandos para armazenar os arrays em outra pasta.
 - `artifacts/baseline/` e `artifacts/cnn/` guardam os checkpoints, os limiares e os scores por clipe. A CNN também salva o histórico de treino.
+- Os checkpoints avaliados em C e B* estão versionados: `artifacts/baseline/seed_*.joblib`, `artifacts/cnn/seed_*.pt` e os `frozen.json` com os limiares. `artifacts/protocolo_teste.json` registra o SHA-256 de cada checkpoint e do código no momento do congelamento. Para rodar os testes finais com esses modelos, pule os comandos `train` e confira os arquivos com `& $python -m src.verify_frozen`. Os hashes de `src/prepare.py` e `src/preprocessing.py` no protocolo correspondem às cópias em `artifacts/novos_testes/referencia_codigo/`. As versões atuais só acrescentam as opções das ablações.
 - `artifacts/avaliacao/` guarda as curvas ROC e precisão–recall, métricas por seed e faixa de SNR. Para interpretar C, o arquivo `metricas_por_colecao_c.csv` consolida as origens de gravação. `metricas_por_origem_c.csv` mantém o detalhe por WAV para auditoria.
 - `artifacts/diagnostico/` guarda contagens, distribuições de SNR, espectrogramas médios e exemplos de erros.
 - `artifacts/continuo/` guarda os scores das janelas, os eventos com horário e a avaliação por arquivo e consolidada.
