@@ -1,0 +1,22 @@
+{
+  "budget_fp_h": 25,
+  "selected": "molde_2d",
+  "variants": [
+    {
+      "variant": "molde_2d",
+      "threshold": 0.25
+    },
+    {
+      "variant": "cnn_media_5",
+      "threshold": 0.51
+    },
+    {
+      "variant": "cnn_duas_janelas",
+      "threshold": 0.54
+    },
+    {
+      "variant": "cnn_original",
+      "threshold": 0.59
+    }
+  ]
+}

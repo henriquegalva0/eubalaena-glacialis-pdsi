@@ -1,0 +1,76 @@
+{
+  "frozen_before_test_at": "2026-11-25T09:32:19.793217+00:00",
+  "fit": [
+    "A/train",
+    "B/train"
+  ],
+  "model_selection_and_threshold": [
+    "A/val",
+    "B/val"
+  ],
+  "test": [
+    "C/train (official path)",
+    "continuous B*"
+  ],
+  "runs": {
+    "baseline": [
+      {
+        "seed": 7,
+        "checkpoint": "seed_7.joblib",
+        "threshold": 0.2180967628955841,
+        "val_auc": 0.9204226369905437,
+        "sha256": "49f6968f7bef4091babd7e0f08d377c386c97847463ab5cbdedb1a08bf28c32b"
+      },
+      {
+        "seed": 23,
+        "checkpoint": "seed_23.joblib",
+        "threshold": 0.31623202562332153,
+        "val_auc": 0.9294349011025311,
+        "sha256": "ea1e4a7a2d6209fd0beb9db586f8fd0f4b8e044a702049a4e732c79741e6333f"
+      },
+      {
+        "seed": 42,
+        "checkpoint": "seed_42.joblib",
+        "threshold": 0.36906471848487854,
+        "val_auc": 0.9261572449106,
+        "sha256": "0d33c74a0c44115b4a7ca77ac154ca1a24cfccb8da5338f70b5235c59607ccdf"
+      }
+    ],
+    "cnn": [
+      {
+        "seed": 7,
+        "checkpoint": "seed_7.pt",
+        "threshold": 0.40920591354370117,
+        "val_auc": 0.9523217161498121,
+        "best_epoch": 14,
+        "sha256": "fb32962e026d445ec6d0bfeef90c37e38eecf18fb4aedb6c6e5a9d7fc672f52a"
+      },
+      {
+        "seed": 23,
+        "checkpoint": "seed_23.pt",
+        "threshold": 0.6581640839576721,
+        "val_auc": 0.9549541644299459,
+        "best_epoch": 14,
+        "sha256": "bbb12f1f32be55e7598c34f1976dae4a242bc798a042f77cf6be50cd5704f4a5"
+      },
+      {
+        "seed": 42,
+        "checkpoint": "seed_42.pt",
+        "threshold": 0.40226277709007263,
+        "val_auc": 0.9573543378618325,
+        "best_epoch": 13,
+        "sha256": "c5a4ab27e71bd8d85ff3144583254da56b13cbe4dfcb2d72ba3223292eefa0c2"
+      }
+    ]
+  },
+  "source_sha256": {
+    "src\\__init__.py": "cab9f5c782fa8e3ef46238f32af382469c2dbc57a6a9812bfa9a2e4828344c84",
+    "src\\baseline.py": "1a4e590d81d43257dd518555521ebaeaba37c6778a8a1cf3eec7a12adeb4759c",
+    "src\\cnn.py": "607445b2e591eeb83c73e819833901d349b5f28e415fbe2f247e8cb308f35cfe",
+    "src\\continuous.py": "7d6f6fa8479a7fd6a10b9cdc9cad55e9353c3dc25252816fcf3394828afff783",
+    "src\\diagnostics.py": "a2a1acb0dabacc83a69c66f4080d7828724233ea108e4854906c925e97c252ac",
+    "src\\evaluate.py": "2f6a8a44c9aa178386a7fb4db9ad0b2a56dabfa8d89d6d9fd0ecdd10ba13525f",
+    "src\\prepare.py": "a7ff74c78fce67d685bdbb290d3807658e99d9c70b43ab24afac98a60fdb10de",
+    "src\\preprocessing.py": "183d1c3ef22ae07cc0c32e881e2ba08d858f1b8d2ca2f681cc73b5f8f8a497a0"
+  }
+}

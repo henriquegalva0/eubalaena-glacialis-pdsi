@@ -2,3 +2,23 @@
 
 data/
 papers/
+narw-data/
+narw-data.zip
+artifacts/*
+# modelos congelados avaliados em C e B*, versionados para reprodução
+!artifacts/protocolo_teste.json
+!artifacts/baseline/
+artifacts/baseline/*
+!artifacts/baseline/frozen.json
+!artifacts/baseline/seed_*.joblib
+!artifacts/cnn/
+artifacts/cnn/*
+!artifacts/cnn/frozen.json
+!artifacts/cnn/seed_*.pt
+!artifacts/novos_testes/
+artifacts/novos_testes/*
+!artifacts/novos_testes/referencia_codigo/
+artifacts/novos_testes/referencia_codigo/*
+!artifacts/novos_testes/referencia_codigo/*.py
+.venv/
+__pycache__/

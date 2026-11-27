@@ -1,0 +1,23 @@
+[
+  {
+    "seed": 7,
+    "checkpoint": "seed_7.pt",
+    "threshold": 0.40920591354370117,
+    "val_auc": 0.9523217161498121,
+    "best_epoch": 14
+  },
+  {
+    "seed": 23,
+    "checkpoint": "seed_23.pt",
+    "threshold": 0.6581640839576721,
+    "val_auc": 0.9549541644299459,
+    "best_epoch": 14
+  },
+  {
+    "seed": 42,
+    "checkpoint": "seed_42.pt",
+    "threshold": 0.40226277709007263,
+    "val_auc": 0.9573543378618325,
+    "best_epoch": 13
+  }
+]
